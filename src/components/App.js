@@ -7,7 +7,6 @@ const API = 'https://6446e5977bb84f5a3e3494b9.mockapi.io';
 const LIMIT = 3;
 
 const App = () => {
-  let dataFetched = false;
   const [data, setData] = React.useState([]);
   const [page, setPage] = React.useState(1);
   const [following, setFollowing] = React.useState([]);
@@ -32,16 +31,11 @@ const App = () => {
   };
 
   useEffect(() => {
-    if (!dataFetched) {
-      const storedFollowing = JSON.parse(localStorage.getItem('following'));
-      if (storedFollowing) {
-        setFollowing(storedFollowing);
-      }
-      getData();
+    const storedFollowing = JSON.parse(localStorage.getItem('following'));
+    if (storedFollowing) {
+      setFollowing(storedFollowing);
     }
-    return () => {
-      dataFetched = true;
-    };
+    getData();
   }, []);
 
   useEffect(() => {
