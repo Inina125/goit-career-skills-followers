@@ -7,8 +7,9 @@ const API = 'https://6446e5977bb84f5a3e3494b9.mockapi.io';
 const LIMIT = 3;
 
 const App = () => {
+  const didFetchRef = React.useRef(null);
   const [data, setData] = React.useState([]);
-  const [page, setPage] = React.useState(1);
+  const [page, setPage] = React.useState(2);
   const [following, setFollowing] = React.useState([]);
 
   const toggleFollowing = id => {
@@ -31,16 +32,24 @@ const App = () => {
   };
 
   useEffect(() => {
+    if (didFetchRef.current) return;
     const storedFollowing = JSON.parse(localStorage.getItem('following'));
     if (storedFollowing) {
       setFollowing(storedFollowing);
     }
-    getData();
+    const firstData = async () => {
+      const response = await fetch(`${API}/users?page=1&limit=${LIMIT}`);
+      const newItems = await response.json();
+      setData(newItems);
+      didFetchRef.current = true;
+    };
+    firstData();
   }, []);
 
   useEffect(() => {
+    if (!didFetchRef.current) return;
     localStorage.setItem('following', JSON.stringify(following));
-  }, [following]);
+  }, [following, didFetchRef]);
 
   return (
     <AppCont>
