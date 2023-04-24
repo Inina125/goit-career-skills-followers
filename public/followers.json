@@ -1,0 +1,86 @@
+[
+  {
+    "user": "Johnny Depp",
+    "tweets": 1000,
+    "followers": 10000,
+    "avatar": "https://m.media-amazon.com/images/M/MV5BOTBhMTI1NDQtYmU4Mi00MjYyLTk5MjEtZjllMDkxOWY3ZGRhXkEyXkFqcGdeQXVyNzI1NzMxNzM@._V1_UY209_CR1,0,140,209_AL_.jpg",
+    "id": 1
+  },
+  {
+    "user": "Robert De Niro",
+    "tweets": 500,
+    "followers": 11000,
+    "avatar": "https://m.media-amazon.com/images/M/MV5BMjAwNDU3MzcyOV5BMl5BanBnXkFtZTcwMjc0MTIxMw@@._V1_UY209_CR9,0,140,209_AL_.jpg",
+    "id": 2
+  },
+  {
+    "user": "Russell Crowe",
+    "tweets": 200,
+    "followers": 9000,
+    "avatar": "https://m.media-amazon.com/images/M/MV5BMTQyMTExNTMxOF5BMl5BanBnXkFtZTcwNDg1NzkzNw@@._V1_UX140_CR0,0,140,209_AL_.jpg",
+    "id": 3
+  },
+  {
+    "user": "Brad Pitt",
+    "tweets": 10,
+    "followers": 99000,
+    "avatar": "https://m.media-amazon.com/images/M/MV5BMjA1MjE2MTQ2MV5BMl5BanBnXkFtZTcwMjE5MDY0Nw@@._V1_UX140_CR0,0,140,209_AL_.jpg",
+    "id": 4
+  },
+  {
+    "user": "Angelina Jolie",
+    "tweets": 555,
+    "followers": 70000,
+    "avatar": "https://m.media-amazon.com/images/M/MV5BODg3MzYwMjE4N15BMl5BanBnXkFtZTcwMjU5NzAzNw@@._V1_UY209_CR15,0,140,209_AL_.jpg",
+    "id": 5
+  },
+  {
+    "user": "Leonardo DiCaprio",
+    "tweets": 300,
+    "followers": 80000,
+    "avatar": "https://m.media-amazon.com/images/M/MV5BMjI0MTg3MzI0M15BMl5BanBnXkFtZTcwMzQyODU2Mw@@._V1_UY209_CR7,0,140,209_AL_.jpg",
+    "id": 6
+  },
+  {
+    "user": "Tom Cruise",
+    "tweets": 400,
+    "followers": 5000,
+    "avatar": "https://m.media-amazon.com/images/M/MV5BYTFlOTdjMjgtNmY0ZC00MDgxLThjNmEtZGIxZTQyZDdkMTRjXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UY209_CR7,0,140,209_AL_.jpg",
+    "id": 7
+  },
+  {
+    "user": "Sylvester Stallone",
+    "tweets": 200,
+    "followers": 4000,
+    "avatar": "https://m.media-amazon.com/images/M/MV5BMTQwMTk3NDU2OV5BMl5BanBnXkFtZTcwNTA3MTI0Mw@@._V1_UY209_CR5,0,140,209_AL_.jpg",
+    "id": 8
+  },
+  {
+    "user": "Kate Winslet",
+    "tweets": 120,
+    "followers": 40000,
+    "avatar": "https://m.media-amazon.com/images/M/MV5BODgzMzM2NTE0Ml5BMl5BanBnXkFtZTcwMTcyMTkyOQ@@._V1_UX140_CR0,0,140,209_AL_.jpg",
+    "id": 9
+  },
+  {
+    "user": "Keanu Reeves",
+    "tweets": 333,
+    "followers": 77777,
+    "avatar": "https://m.media-amazon.com/images/M/MV5BNGJmMWEzOGQtMWZkNS00MGNiLTk5NGEtYzg1YzAyZTgzZTZmXkEyXkFqcGdeQXVyMTE1MTYxNDAw._V1_UX140_CR0,0,140,209_AL_.jpg",
+    "id": 10
+  },
+  {
+    "user": "Charlize Theron",
+    "tweets": 100,
+    "followers": 12000,
+    "avatar": "https://m.media-amazon.com/images/M/MV5BMTk5Mzc4ODU0Ml5BMl5BanBnXkFtZTcwNjU1NTI0Mw@@._V1_UY209_CR8,0,140,209_AL_.jpg",
+    "id": 11
+  },
+  {
+    "user": "Scarlett Johansson",
+    "tweets": 220,
+    "followers": 7000,
+    "avatar": "https://m.media-amazon.com/images/M/MV5BMTM3OTUwMDYwNl5BMl5BanBnXkFtZTcwNTUyNzc3Nw@@._V1_UY209_CR16,0,140,209_AL_.jpg",
+    "id": 12
+  }
+]
